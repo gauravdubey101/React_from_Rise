@@ -8,5 +8,6 @@ let gamestone = {
     type,
     color,
     carat,
+    caculateWorth(){}
     
 };
