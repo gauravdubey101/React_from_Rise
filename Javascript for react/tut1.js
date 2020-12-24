@@ -46,4 +46,16 @@ console.log(i.toString()); */
 
 let stri = Number("3454");
 stri = Number("345d4");
-console.log(stri, (typeof stri));
+stri = Number(true);
+stri = Number([1,2,3,4,5]);
+// console.log(stri, (typeof stri));
+
+/* let number = parseInt('340.45'); */
+// let number = parseFloat('340.45');
+// console.log(number, (typeof number));
+let number = parseFloat('340.4');
+console.log(number.toFixed(7), (typeof number));
+
+
+
+
