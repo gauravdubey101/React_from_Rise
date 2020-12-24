@@ -20,13 +20,13 @@ dates */
 
 //types converstions
 
-console.log('welcome to type converstions');
+/* console.log('welcome to type converstions');
 let myVar;
 myVar = String(34);
 console.log(myVar,(typeof myVar));
 
 let booleanVar = true;
-console.log(booleanVar,(typeof booleanVar));
+console.log(booleanVar,(typeof booleanVar)); */
 
 // let date = new Date();
 //console.log(date , (typeof date)) 
@@ -41,5 +41,9 @@ console.log(arr.length); */
 /* let arr = String([1,2,3,4,5]);
 console.log(arr.length,(typeof arr)) */
 
-let i=2;
-console.log(i.toString());
+/* let i=2;
+console.log(i.toString()); */
+
+let stri = Number("3454");
+stri = Number("345d4");
+console.log(stri, (typeof stri));
