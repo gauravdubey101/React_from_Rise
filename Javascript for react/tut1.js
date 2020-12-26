@@ -53,9 +53,17 @@ stri = Number([1,2,3,4,5]);
 /* let number = parseInt('340.45'); */
 // let number = parseFloat('340.45');
 // console.log(number, (typeof number));
-let number = parseFloat('340.4');
-console.log(number.toFixed(7), (typeof number));
+/* let number = parseFloat('340.4');
+console.log(number.toFixed(7), (typeof number)); */
 
+
+//type coercion
+/* let mystr = "654";
+let mystr = Number("654");
+let mynum = 32;
+//here js number convert into string
+console.log(mystr+mynum);
+ */
 
 
 
