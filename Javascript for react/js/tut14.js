@@ -1,4 +1,4 @@
 console.log('local and session storage');
 
 localStorage.setItem('Name','Gaurav');
-localStorage.setItem('Name2','Dubey')
+localStorage.setItem('Name2','Dubey');
