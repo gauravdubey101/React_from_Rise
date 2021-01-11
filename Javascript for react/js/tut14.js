@@ -10,11 +10,20 @@ localStorage.setItem('good',JSON.stringify(impArray));
 
 //clear only particular key
 
-localStorage.removeItem('Name');
+//localStorage.removeItem('Name');
 //retrive item from local storage
 let name = localStorage.getItem("Name");
 name = JSON.parse(localStorage.getItem('good'));
 console.log(name);
+
+//session storage
+/* 
+sessionStorage.setItem('sessionName','gd');
+sessionStorage.setItem('sessionName2','ff2');
+sessionStorage.setItem('sessionName3',JSON.stringify(impArray)) */
+
+
+
 
 
 
